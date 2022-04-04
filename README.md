@@ -1,2 +1,1 @@
 # KIMCHAEYI
-vertical-align:middle
