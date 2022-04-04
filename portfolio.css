@@ -18,7 +18,7 @@ body,h1,h2 {
     margin: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    color:rgb(25, 83, 32)
+    color:rgb(25, 83, 32);
 }
 
 .main {
@@ -28,15 +28,15 @@ body,h1,h2 {
     text-align: left;
     padding: 10px;
     margin: 0px;
-    margin-left: 0px;
     float: left;
+    flex-direction: row;
+    margin-left: 0px; 
     margin-right: 0px;
-    flex-direction: column;
     color: rgb(25, 83, 32);
 }
 
 .about-me-text {
-    color:rgb(61, 113, 223)
+    color:rgb(61, 113, 223);
     font-size: 20px;
 }
 
@@ -83,45 +83,7 @@ h2 {
     font-weight: blod; /*light, blod, nomal*/
 }
 
-footer {
-    text-align: center;
-    background-color: #1E1E1E;
-    padding: 12px;
-    color: #919191;
-    font-size: 12px;
-}
-
-section{
-    margin-bottom: 24px;
-
-}
-
 .about-me-text {
     font-size: 10px;
     line-height: 16px; /* 줄 간격 */
 }
-
-.title-text {
-    font-size: 11px;
-    font-weight: bold;
-    color: #282828;
-    float: left; /* 서로 겹치지 않게 float 사용 */
-}
-
-.float-wrap {
-    overflow: hidden;
-}
-
-.desc-text {
-    font-size: 9px;
-}
-
-.sns-img {
-    width: 12px;
-    height: 12px;
-}
-
-.sns-wrap {
-    text-align: right;
-}
-
