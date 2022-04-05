@@ -5,12 +5,12 @@
 }
 
 body,h1,h2 {
-    margin: px;
+    margin: 0px;
     padding: 0px;
 }
 
 .sidebar {
-    border: 2px solid rgb(248, 190, 64);
+    border: 2px solid rgb(71, 98, 155);
     width: 250px;
     height: 100%;
     text-align: left;
@@ -18,44 +18,28 @@ body,h1,h2 {
     margin: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    color:rgb(25, 83, 32);
+    float: left;
+    color:rgb(255, 255, 255);
+    background-color: rgb(155, 174, 194);
 }
 
 .main {
-    border: 2px solid rgb(248, 190, 64);
-    width: 250px;
-    height: 100%;
+    width: 1200px;
+    height: 0%;
     text-align: left;
-    padding: 10px;
-    margin: 0px;
+    padding: 0px;
+    margin: 10px;
+    margin-left: 10px; 
+    margin-right: 10px;
     float: left;
     flex-direction: row;
-    margin-left: 0px; 
-    margin-right: 0px;
-    color: rgb(25, 83, 32);
-}
-
-.about-me-text {
-    color:rgb(61, 113, 223);
-    font-size: 20px;
+    color: #3d4c69;
 }
 
 .name-text {
     font-size: 20x;
     color: #1a2665;
-    font-weight: bold;
-}
-
-.title-box {
-    text-align: cleft;
-    margin-top: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-body,h1,h2 {
-    margin: 0px;
-    padding: 0px;
+    font-weight: normal;
 }
 
 body {
@@ -65,7 +49,6 @@ body {
 h1 {
     font-size: 36px;
     font-weight: bold;
-    font-style: italic;
 }
 
 h2 {
@@ -77,13 +60,33 @@ h2 {
     padding-bottom: 5px;
 }
 
-.name-text {
-    font-size: 17px;
-    color: #7c7c7c;
-    font-weight: blod; /*light, blod, nomal*/
-}
-
-.about-me-text {
+.category {
     font-size: 10px;
     line-height: 16px; /* 줄 간격 */
+    color:rgb(255, 255, 255));
+    font-size: 20px;
 }
+
+a {
+    text-decoration-line: none;
+  /*   text-decoration-line: underline; */
+  /*   text-decoration-line: overline; */
+  /*   text-decoration-line: line-through; */
+  /*   text-decoration-line: underline line-through overline; */
+  }
+
+a:link {
+    color : rgb(255, 255, 255);
+}
+
+a:visited {
+    color : rgb(255, 255, 255);
+  }
+
+ a:hover {
+    color : #1a2665;
+  }
+  
+a:active {
+    color : rgb(214, 226, 250)
+  }
