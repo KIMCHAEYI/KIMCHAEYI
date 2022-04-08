@@ -27,9 +27,10 @@ body,h1,h2 {
     height: 0%;
     text-align: left;
     padding: 0px;
-    margin: 10px;
+    margin: 55px;
     margin-left: 10px; 
     margin-right: 10px;
+    
     float: left;
     flex-direction: row;
     color: #3d4c69;
@@ -101,4 +102,10 @@ a:visited {
   
 a:active {
     color : rgb(214, 226, 250)
+  }
+
+.footer {
+    color:rgb(255, 255, 255));
+    font-size: 10px;
+    margin-top: 580;
   }
