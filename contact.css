@@ -80,6 +80,10 @@ p {
     margin-left: 15px;
 }
 
+.visit {
+    color: #1a2665;
+}
+
 a {
     text-decoration-line: none;
   /*   text-decoration-line: underline; */
