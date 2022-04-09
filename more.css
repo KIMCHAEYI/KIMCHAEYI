@@ -108,18 +108,22 @@ a:active {
     margin-top: 580;
 }
 
-.about {
-    flex-direction: column;
-    float: left;
+.hi {
+    font-size: 60px;
+    color: #7e2727;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 405;
 }
 
-.icon_name {
-    float: left;
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 30px;
+img {
+    box-align: left;
+    width: 550px;
+    height: 550px;
+    margin-left: 320px;
+    display: block;
 }
 
-.indent {
-    margin-left: 60px;
+.com {
+    font-family: 'Times New Roman', Times, serif;
 }
