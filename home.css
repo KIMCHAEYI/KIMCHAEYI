@@ -42,21 +42,25 @@ body,h1,h2 {
     margin-left: 15;
 }
 
+.loc {
+    float: left;
+    margin-top: 200;
+}
+
 .hi {
     font-size: 60px;
     color: #1a2665;
     font-weight: bold;
     margin-left: 0px;
-    margin-top: 350px;
     line-height: 0.5;
 }
 
 .welcome {
+    float: left;
     font-size: 15px;
     color: #3f424f;
     font-weight: 350;
     margin-left: 30;
-    margin-top: 0px;
 }
 
 body {
@@ -110,18 +114,18 @@ a:link {
 
 a:visited {
     color : rgb(255, 255, 255);
-  }
+}
 
- a:hover {
+a:hover {
     color : #1a2665;
-  }
-  
+}
+
 a:active {
     color : rgb(214, 226, 250)
-  }
+}
 
-  .footer {
+.footer {
     color:rgb(255, 255, 255));
     font-size: 10px;
     margin-top: 580;
-  }
+}
